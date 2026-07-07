@@ -1,0 +1,77 @@
+.ad-container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 40px auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Title */
+.ad-container h1 {
+    font-size: 23px;
+  text-align: center;
+  color: #0a3d62;
+  margin-bottom: 15px;
+}
+
+/* Intro text */
+.ad-container p {
+  text-align: center;
+  color: #555;
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* FLEX WRAPPER for ALL program sections */
+.ad-container h2 {
+  color: #0a3d62;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Make each section + list behave in flex row */
+.ad-container h2 + ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+  padding: 5px;
+  list-style: none;
+}
+
+/* Each item as flex box */
+.ad-container h2 + ul li {
+  flex: 1;
+  min-width: 250px;
+  background: #f8fafc;
+  padding: 12px 15px;
+  border-left: 4px solid #0a3d62;
+  font-size: 13px;
+  color: #444;
+  transition: 0.3s;
+  position: relative;
+}
+
+/* Bullet */
+.ad-container h2 + ul li::before {
+  content: "•";
+  position: absolute;
+  /* margin-top: -5px; */
+  left: 5px;
+  color: #0a3d62;
+  /* font-size: 13px; */
+}
+
+/* Hover effect */
+.ad-container h2 + ul li:hover {
+  background: #eaf2ff;
+  color: #0a3d62;
+  transform: translateY(-3px);
+}
+
+/* Final paragraph */
+.ad-container p:last-child {
+  margin-top: 20px;
+  font-weight: 200;
+  color: #333;
+}

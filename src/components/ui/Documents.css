@@ -1,0 +1,70 @@
+
+.req-page {
+  width: 100%;
+  min-height: 40vh;
+  padding: 20px 20px;
+  margin-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(135deg, #f5f8ff, #ffffff);
+  text-align: center;
+}
+
+.req-page h2 {
+  padding: 20px;
+  font-size: 18px;
+  color: #1e3c72;
+  margin-bottom: 20px;
+ 
+}
+
+/* FLEX LAYOUT */
+.req-flex {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* EACH BOX */
+.req-box {
+  background: white;
+  width: 300px;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: left;
+  transition: 0.3s;
+  margin-bottom: 70px;
+}
+
+.req-box:hover {
+  transform: translateY(-5px);
+}
+
+.req-box h2 {
+  color: #1e3c72;
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #1e3c72;
+  padding-bottom: 5px;
+}
+
+.req-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.req-box li {
+  padding: 8px 0;
+  font-size: 13px;
+  color: #333333b9;
+  position: relative;
+  padding-left: 18px;
+}
+
+.req-box li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #1e3c72;
+}

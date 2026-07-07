@@ -1,0 +1,108 @@
+
+/* Main container */
+.special-IT {
+  width: 100%;
+  padding: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: #f9fbff;
+}
+
+/* Title */
+.special-IT h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #1e3c72;
+  margin-bottom: 20px;
+}
+
+/* GRID */
+.it-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* CARDS */
+.it-card {
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.it-card:hover {
+  transform: translateY(-5px);
+}
+
+.it-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.it-card h4 {
+  padding: 10px;
+  font-size: 13px;
+}
+
+/* TEXT SECTION CENTER FIX */
+.IT-DATA {
+    /* padding: 20px; */
+  max-width: 800px;
+}
+
+/* ALL HEADINGS CENTER */
+
+.IT-DATA h1,
+.special-IT > h1 {
+    padding: 15px;
+  font-size: 18px;
+  color: #1e3c72;
+  margin-bottom: 10px;
+  text-align: left;
+
+}
+
+/* remove underline completely */
+
+
+/* PARAGRAPHS CENTER BLOCK */
+.IT-DATA p,
+.special-IT > p {
+  font-size: 13px;
+  color: #333333a4;
+  line-height: 1.8;
+  text-align: left;
+  max-width: 700px;
+  margin-left: 20px;
+  /* margin: 0 auto 25px; */
+}
+
+.IT-1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.IT-1 p{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.664);
+}
+.arrow-btn {
+  background: #1e3b72a2;
+  color: white;
+  border: none;
+  width: 45px;
+  height: 45px;
+  font-size: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.arrow-btn:hover {
+  background:  #1e3c72;;
+  transform: scale(1.1);
+}

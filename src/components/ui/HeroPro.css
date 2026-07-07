@@ -1,0 +1,79 @@
+
+.program-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px 80px;
+  background: #f9fafb;
+}
+
+/* Card */
+.program-card {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  border-top: 4px solid #1e3c70;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.program-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.program-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1e3c70;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.program-card p {
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .program-wrapper {
+    padding: 30px 20px;
+  }
+
+  .program-card {
+    width: 100%;
+  }
+}
+.card-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 15px;
+  padding: 10px 16px;
+color: #1e3c709d;
+  /* color: white; */
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.card-btn span {
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+/* hover effect */
+.card-btn:hover {
+  color: #152e68;
+  transform: translateX(5px);
+}
+
+.card-btn:hover span {
+  transform: translateX(4px);
+}

@@ -1,0 +1,61 @@
+.ground-container {
+  width: 100%;
+  padding: 40px 25px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ffffff;
+  margin-top: 30px;
+  /* BACKGROUND IMAGE */
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzq8gR-29JHIVq5V1WmzukH9J2IUUIfmlwIMFjuwhEMw&s=10");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+}
+
+/* TITLE */
+.ground-container h1 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-left: 4px solid #ffffff;
+  padding-left: 10px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+/* PARAGRAPHS */
+.ground-container p {
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.678);
+  max-width: 900px;
+  font-size: 13px;
+  margin-left: 40px;
+}
+
+/* SUB HEADING */
+.ground-container h2 {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+/* LIST */
+.ground-container ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 13px;
+  margin-left: 40px;
+  color: rgba(255, 255, 255, 0.678);
+}
+
+.ground-container li {
+  margin-bottom: 8px;
+  color: rgba(255, 255, 255, 0.8);
+}

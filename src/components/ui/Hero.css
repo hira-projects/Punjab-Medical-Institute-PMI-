@@ -1,0 +1,124 @@
+.hero-con {
+  padding:  60px;
+  background: #ffffff; /* white background */
+  color: #111827;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Title */
+.hero-con h2 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #1e3c70;
+ 
+}
+
+.hero-con h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1e3c70;
+   text-align: left;
+}
+
+/* Paragraphs */
+.hero-con p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #414244b0;
+  max-width: 900px;
+  text-align: left;
+}
+
+/* OFFER BOX */
+.offer {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: center
+}
+
+/* Offer heading */
+.offer h1 {
+    text-align: center;
+  font-size: 18px;
+  color: #1e3c70;
+  margin-bottom: 10px;
+}
+.offer p{
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+}
+.contact-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 12px;
+  background: #1e3c709a;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background: #1e3c70;
+  transform: scale(1.05);
+}
+/* Programs box */
+.programs-det-container {
+  margin-top: 10px;
+  padding: 10px;
+  border-left: 4px solid #1e3c70;
+  background: #ffffff;
+}
+
+.programs-det-container h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #1e3c70;
+}
+
+.programs-det-container p {
+  font-size: 13px;
+  color: #595b5ebb;
+  text-align: left;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .hero-con {
+    padding: 40px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-con {
+    padding: 30px 25px;
+  }
+
+  .hero-con h2 {
+    font-size: 24px;
+  }
+
+  .hero-con h1 {
+    font-size: 30px;
+  }
+
+  .hero-con p {
+    font-size: 15px;
+  }
+
+  .offer h1 {
+    font-size: 22px;
+  }
+}

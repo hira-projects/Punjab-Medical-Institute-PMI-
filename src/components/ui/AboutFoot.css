@@ -1,0 +1,77 @@
+
+.footer {
+  background: #1e3c72;
+  color: white;
+  padding: 40px 8% 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* MAIN LAYOUT */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* EACH BOX */
+.footer-box {
+  flex: 1;
+  min-width: 260px;
+}
+
+/* TITLE */
+.footer-box h3 {
+  font-size: 15px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+/* TEXT */
+.footer-box p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #dcdcdcb9;
+  margin-bottom: 8px;
+}
+
+/* INSTAGRAM LINK */
+.insta-link {
+  display: inline-block;
+  margin-top: 5px;
+  color: #dcdcdc;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.insta-link:hover {
+ color: #ffdd57;
+  text-decoration: underline;
+}
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  font-size: 13px;
+  color: #ccc;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-box {
+    margin-bottom: 20px;
+  }
+
+  .insta-link {
+    display: block;
+  }
+}

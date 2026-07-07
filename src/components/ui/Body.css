@@ -1,0 +1,126 @@
+
+/* Body.css */
+
+.data {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* margin-top: 20px; */
+}
+
+.data h1 {
+  font-size: 23px;
+color: #1e3c72;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+.data h2{
+  margin: auto;
+  font-size: 18px;
+   color: #1e3c72;
+}
+.data p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #444444bb;
+  text-align: left;
+  margin-top: 20px;
+  max-width: 900px;
+}
+
+@media (max-width: 768px) {
+  .data {
+    padding: 40px 20px;
+  }
+
+  .data h1 {
+    font-size: 30px;
+  }
+
+  .data p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+}
+.special {
+  width: 100%;
+ padding: 20px;
+  background: #fff;
+}
+
+.special h1 {
+  font-size: 23px;
+ color: #1e3c72;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.special h2 {
+  font-size: 18px;
+ color: #1e3c72;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.special-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 30px;
+}
+
+.special-card {
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f8f9fa;
+  transition: transform 0.3s ease;
+}
+
+.special-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.special-card img {
+  width: 70%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto 10px;
+  border-radius: 8px;
+}
+
+.special-card h3 {
+  padding:10px;
+  text-align: center;
+  color: #333333b6;
+  font-size: 13px;
+}
+.explain-data {
+  width: 100%;
+ margin-top: 20px;
+  background: #f8fbff;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: white;
+}
+
+.explain-data h1 {
+  font-size: 18px;
+ color: #1e3c72;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.explain-data h3 {
+  font-size: 18px;
+  color: #1e3c72;
+  /* margin-top: 35px; */
+  margin-top: 20px;
+}
+
+.explain-data p {
+  font-size: 13px;
+  color: #555555b0;
+  line-height: 1.8;
+  text-align: justify;
+  /* margin-bottom: 20px; */
+}

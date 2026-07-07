@@ -1,0 +1,139 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cs-page {
+  min-height: 50vh;
+  margin-top: 20px;
+  display: flex;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* Background Image */
+  background: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+              url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOrc_XBoudWc393D6549DrmpL0unT_TKvEUXN0exHUjQ&s=10");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Left Section */
+.left-side {
+  flex: 1;
+  color: rgba(255, 255, 255, 0.479);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px;
+}
+
+.left-side h1 {
+  font-size: 20px;
+ color:#1e3c72 ;
+ margin-bottom: 20px;
+  
+}
+
+.left-side h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.left-side p {
+  font-size: 13px;
+  line-height: 1.8;
+  max-width: 500px;
+}
+/* .btn{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.btn a{
+    margin:auto ;
+    margin-top: 50px;
+    background-color: #1e3c72 ;
+    padding: 15px;
+    border-radius: 10px;
+} */
+.btn {
+    /* text-align: center; */
+    margin-top: 10px;
+}
+
+.btn p {
+   
+    color: #ffffff85; /* Change if your background is white */
+    font-size: 15px;
+}
+
+.btn a {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #1e3b72b6;
+    color: #ffffffc4;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    /* font-weight: 300; */
+    transition: 0.3s ease;
+}
+
+.btn a:hover {
+    background-color: #0d2655;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Right Section */
+.right-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content-box {
+  background: rgba(255, 255, 255, 0.212);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  color: rgba(255, 255, 255, 0.514);
+  width: 100%;
+  max-width: 550px;
+}
+
+.content-box h2 {
+  color:#0b2350 ;
+  margin: 10px 0 10px;
+  font-size: 15px;
+}
+
+.content-box p,
+.content-box li {
+    font-size: 12px;
+  line-height: 1.8;
+}
+
+.content-box ul {
+  padding-left: 10px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .cs-page {
+    flex-direction: column;
+  }
+
+  .left-side,
+  .right-side {
+    padding: 40px 25px;
+  }
+
+  .left-side h1 {
+    font-size: 20px;
+  }
+}

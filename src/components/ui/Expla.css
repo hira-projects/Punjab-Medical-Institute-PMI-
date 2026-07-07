@@ -1,0 +1,144 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.expla-container {
+  width: 100%;
+  background: #f4f7ff;
+  padding: 20px 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 60px;
+}
+
+/* Title */
+.expla-container h1 {
+  text-align: center;
+  color: #0a3d62;
+  font-size: 23px;
+  /* margin-bottom: 10px; */
+}
+
+/* Intro */
+.expla-container p {
+  text-align: center;
+  color: #5555559f;
+  font-size: 13px;
+  max-width: 800px;
+  margin: 20px auto 30px auto;
+  line-height: 1.6;
+}
+
+/* Section heading */
+.expla-container h2 {
+  color: #0a3d62;
+  font-size: 20px;
+  margin: 40px auto 20px;
+  max-width: 1100px;
+  border-left: 5px solid #0a3d62;
+  padding-left: 10px;
+}
+
+/* FLEX WRAPPER for ALL ITEMS under each section */
+.expla-container h2 + .item {
+  margin-top: 10px;
+}
+
+/* Create FLEX layout for groups of items */
+.expla-container h2 + .item,
+.expla-container h2 + .item + .item,
+.expla-container h2 + .item + .item + .item {
+  display: flex;
+  flex-direction: column;
+}
+
+/* GROUP ALL ITEMS IN FLEX ROW */
+.expla-container h2 ~ .item-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Each program item */
+.item {
+  flex: 1;
+  min-width: 280px;
+  padding: 12px 15px;
+  background: #ffffff;
+  border-left: 4px solid #0a3d62;
+  transition: 0.3s;
+}
+
+/* Title */
+.item h3 {
+  font-size: 16px;
+  color: #0a3d62;
+  margin-bottom: 5px;
+}
+
+/* Description */
+.item p {
+  font-size: 14px;
+  color: #66666693;
+  text-align: left;
+}
+
+/* Hover effect */
+.item:hover {
+  transform: translateY(-5px);
+  background: #eaf2ff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .item {
+    min-width: 100%;
+  }
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-wrapper button {
+  padding: 12px 28px;
+  background: linear-gradient(135deg, #0a3d62, #1e5fa8);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 15px rgba(10, 61, 98, 0.25);
+}
+
+.button-wrapper button:hover {
+  background: linear-gradient(135deg, #1e5fa8, #0a3d62);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(10, 61, 98, 0.35);
+}
+
+.button-wrapper button:active {
+  transform: scale(0.96);
+}
+
+.button-wrapper a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .button-wrapper button {
+    width: 100%;
+    max-width: 220px;
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+}

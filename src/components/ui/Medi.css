@@ -1,0 +1,176 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.medi-page {
+  width: 100%;
+  min-height: 60vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 40px;
+}
+
+.overlay {
+  background: rgba(194, 190, 190, 0.753);
+  padding: 60px 40px;
+}
+
+.overlay h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+/* Cards */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 250px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,.15);
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 18px;
+}
+
+.content h3 {
+  text-align: center;
+  color: #1e3b72b2;
+  font-size: 13px;
+}
+
+
+/* Program Information */
+
+.programs-info {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  text-align: left;
+}
+
+.programs-info h1 {
+  font-size: 18px;
+  color: white;
+  margin-left: -600px;
+}
+
+.programs-info p {
+  font-size: 13px;
+  color: #444444c4;
+  line-height: 1.8;
+  text-align: left;
+  width: 70%;
+  margin-left: 170px;
+  margin-top: -30px;
+}
+
+
+/* Single Image */
+
+.img {
+  width: 250px;
+  margin: 0 auto 90px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,.25);
+}
+
+.img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.img:hover img {
+  transform: scale(1.08);
+}
+
+.img h3 {
+  padding: 13px;
+  text-align: center;
+  color: #1e3b72a8;
+  transition: color 0.3s ease;
+  font-size: 13px;
+}
+
+.img:hover h3 {
+  color: #1e3c72;
+}
+
+
+
+/* Tablet */
+
+@media (max-width:992px) {
+
+  .overlay {
+    padding: 40px 20px;
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .programs-info {
+    padding: 25px;
+  }
+}
+
+
+/* Mobile */
+
+@media (max-width:768px) {
+
+  .overlay h1 {
+    font-size: 28px;
+  }
+
+  .card,
+  .img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .programs-info h1 {
+    font-size: 24px;
+  }
+
+  .programs-info p {
+    font-size: 16px;
+  }
+}

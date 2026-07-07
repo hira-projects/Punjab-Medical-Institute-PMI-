@@ -1,0 +1,46 @@
+
+.criteria-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    gap: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.eligibility,
+.timing {
+    flex: 1;
+}
+
+.eligibility h2,
+.timing h2 {
+    color: #0a3d62;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.eligibility ul,
+.timing ul {
+    list-style: none;
+    padding: 0;
+}
+
+.eligibility li,
+.timing li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.eligibility li::before,
+.timing li::before {
+    content: "✔ ";
+    color: #0a3d62;
+}
+
+@media (max-width: 768px) {
+    .criteria-section {
+        flex-direction: column;
+    }
+}

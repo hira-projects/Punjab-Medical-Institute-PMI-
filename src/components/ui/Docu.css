@@ -1,0 +1,68 @@
+
+.docs-page {
+  width: 100%;
+  min-height: 30vh;
+  padding: 50px 40px;
+  
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* ⬅ forces left alignment */
+}
+
+.docs-page h1 {
+  color: #1e3c72;
+  font-size: 15px;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.subtitle {
+  color: #555555c2;
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-align: left;
+  max-width: 700px;
+}
+
+.docs-list {
+  width: 100%;
+  max-width: 700px;
+  padding: 0;
+  list-style: none;
+  margin: 0; /* ⬅ removes centering */
+}
+
+.docs-list li {
+  font-size: 13px;
+  color: #333333b6;
+  border-bottom: 1px solid #e6e6e6;
+  position: relative;
+  padding: 10px 10px 10px 20px;
+  text-align: left;
+}
+
+.docs-list li::before {
+  content: "✔";
+  color: #1e3c72;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.docs-list li:hover {
+  background-color: #f0f4ff;
+  transition: 0.3s;
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #b45309;
+  background: #fff7ed;
+  padding: 10px 15px;
+  border-radius: 6px;
+  max-width: 700px;
+}

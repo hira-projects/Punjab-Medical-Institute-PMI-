@@ -1,0 +1,41 @@
+
+.programs-page {
+  width: 85%;
+  max-width: 1000px;
+  margin: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.8;
+}
+
+.programs-page h1 {
+  /* text-align: center; */
+  color: #1e3c72;
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+
+.intro {
+  text-align: left;
+  color: #555555b6;
+  margin-bottom: 40px;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+.program {
+  margin-bottom: 15px;
+}
+
+.program h2 {
+  font-size: 18px;
+  color: #1e3c72;
+  margin-bottom: 10px;
+  border-left: 5px solid #1e3c72;
+  padding-left: 12px;
+}
+
+.program p {
+  color: #555555c9;
+  text-align: justify;
+  font-size: 13px;
+}

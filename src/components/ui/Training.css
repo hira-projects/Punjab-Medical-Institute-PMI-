@@ -1,0 +1,128 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.training{
+    width:90%;
+    max-width:1200px;
+    margin:50px auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Heading */
+
+.heading{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.heading h1{
+    font-size:20px;
+    color:#0a3d62;
+    margin-bottom:15px;
+}
+
+.heading p{
+    max-width:800px;
+    margin:auto;
+    color:#666666bd;
+    font-size:13px;
+    line-height:1.7;
+    text-align: left;
+}
+
+/* Images */
+
+.image-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin:40px 0 60px;
+}
+
+.image-grid img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:12px;
+    transition:0.4s ease;
+    box-shadow:0 6px 15px rgba(0,0,0,.12);
+}
+
+.image-grid img:hover{
+    transform:scale(1.05);
+}
+
+/* Course Section */
+
+.course-section{
+    display:flex;
+    gap:25px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+/* Course Box */
+
+.container{
+    flex:1;
+    min-width:280px;
+    padding:20px;
+    border-top:4px solid #0a3d62;
+}
+
+.container h2{
+    color:#0a3d62;
+    text-align:center;
+    margin-bottom:20px;
+    font-size:18px;
+}
+
+.container ul{
+    list-style:none;
+}
+
+.container li{
+    padding:10px 0;
+    border-bottom:1px solid #ddd;
+    color:#555555b0;
+    font-size:13px;
+}
+
+.container li:last-child{
+    border-bottom:none;
+}
+
+.container li::before{
+    content:"✔ ";
+    color:#0a3d62;
+    font-weight:bold;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .heading h1{
+        font-size:28px;
+    }
+
+    .heading p{
+        font-size:15px;
+    }
+
+    .course-section{
+        flex-direction:column;
+    }
+
+    .container{
+        width:100%;
+    }
+
+    .image-grid img{
+        height:220px;
+    }
+}

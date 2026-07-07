@@ -1,0 +1,157 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cm {
+  width: 100%;
+  min-height: 70vh;
+  padding: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin-top: 30px;
+  background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)
+  ),
+  url("https://media.wabash.edu/images2/photo-albums/3031/3031-55035-IMG-0995-JPG-lg.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* Main Heading */
+
+.cm h1 {
+  text-align: center;
+  color: white;
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+
+
+/* Introduction */
+
+.cm > p {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  color: rgba(255,255,255,0.75);
+  font-size: 13px;
+  line-height: 1.8;
+  text-align: left;
+  width: 40%;
+}
+
+
+/* Flex Container */
+
+.rules {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+
+/* Each Box */
+
+.rule-box {
+  flex: 1;
+  min-width: 280px;
+}
+
+
+/* Heading */
+
+.rule-box h2,
+.benefits h2 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-left: 4px solid white;
+  padding-left: 10px;
+}
+
+
+/* List */
+
+.rule-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.rule-box li {
+  position: relative;
+  padding: 10px 0 10px 25px;
+  color: rgba(255,255,255,0.7);
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+
+/* Arrow */
+
+.rule-box li::before {
+  content: "→";
+  position: absolute;
+  left: 5px;
+  color: white;
+}
+
+
+/* Hover */
+
+.rule-box li:hover {
+  color: white;
+  transform: translateX(5px);
+}
+
+
+/* Benefits */
+
+.benefits {
+  margin-top: 40px;
+}
+
+
+.benefits p {
+  color: rgba(255,255,255,0.75);
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: justify;
+  width: 40%;
+}
+
+
+/* Responsive */
+
+@media(max-width:768px){
+
+  .cm {
+    padding: 30px 20px;
+  }
+
+  .cm > p {
+    width: 100%;
+  }
+
+  .rules {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .rule-box h2,
+  .benefits h2 {
+    font-size: 18px;
+  }
+
+  .rule-box li,
+  .benefits p {
+    font-size: 13px;
+  }
+}
