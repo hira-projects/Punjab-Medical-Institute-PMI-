@@ -231,12 +231,17 @@
   }
 
 
-  .nav-links{
-    width:100%;
-    flex-direction:column;
-    gap:12px;
-    text-align:center;
-  }
+  
+  .nav-links {
+  display: none;
+}
+
+.nav-links.active {
+  display: flex;
+}
+.menu-toggle {
+  display: block;
+}
 
 
   .nav-links a,
@@ -295,3 +300,7 @@
   }
 
 }
+.menu-toggle {
+  display: none;
+}
+

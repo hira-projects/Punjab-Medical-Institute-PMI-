@@ -1,32 +1,33 @@
 
 .info-wrapper {
   display: flex;
-  margin-left: 550px;
+  justify-content: center;
+  align-items: flex-start;
   gap: 40px;
-  width: 50%;
-  /* margin-top: 10px; */
-  flex-wrap: wrap; /* responsive */
-  justify-items: center; 
-  /* align-items: center; */
-  /* align-content: center; */
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
-/* Each box */
+/* Each Box */
 .eligibility,
 .timing {
-  flex: 1;
-  background: white;
-  padding: 15px;
+  flex: 1 1 350px;
+  background: #fff;
+  padding: 20px;
   min-width: 280px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
+  border-radius: 10px;
 }
 
 /* Heading */
 .eligibility h2,
 .timing h2 {
   text-align: left;
-  font-size: 18px;
+  font-size: 20px;
   color: #0a3d62;
+  margin-bottom: 15px;
 }
 
 /* List */
@@ -41,11 +42,11 @@
 .eligibility li,
 .timing li {
   position: relative;
-  padding: 15px;
-  font-size: 13px;
-  color: #4444448c;
+  padding: 15px 15px 15px 20px;
+  font-size: 14px;
+  color: #555;
   border-left: 2px solid #0a3d62;
-  transition: 0.3s ease;
+  transition: .3s;
 }
 
 /* Dot */
@@ -73,15 +74,13 @@
 .contact-btn-1 {
   width: 100%;
   text-align: center;
-  margin-top: -40px;
-  margin-bottom: 70px;
+  margin: 20px 0 60px;
 }
 
 .contact-btn-1 p {
   margin-bottom: 18px;
-  color: #4444448c;
-  font-size: 14px;
-  padding: 0;
+  color: #666;
+  font-size: 15px;
 }
 
 .contact-btn-1 p:hover {
@@ -97,12 +96,98 @@
   border-radius: 50px;
   font-size: 15px;
   font-weight: 600;
-  transition: all 0.3s ease;
-  box-shadow: 0 6px 15px rgba(10, 61, 98, 0.25);
+  transition: .3s;
+  box-shadow: 0 6px 15px rgba(10,61,98,.25);
 }
 
 .contact-btn-1 a:hover {
-  background: linear-gradient(135deg, #1e3c70, #0a3d62);
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(10, 61, 98, 0.35);
+  box-shadow: 0 10px 20px rgba(10,61,98,.35);
+}
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width:992px){
+
+  .info-wrapper{
+    width:95%;
+    gap:30px;
+  }
+
+  .eligibility,
+  .timing{
+    flex:1 1 300px;
+  }
+
+}
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width:768px){
+
+  .info-wrapper{
+    flex-direction:column;
+    width:92%;
+    gap:20px;
+  }
+
+  .eligibility,
+  .timing{
+    width:100%;
+    min-width:100%;
+    margin-bottom:20px;
+    padding:18px;
+  }
+
+  .eligibility h2,
+  .timing h2{
+    font-size:20px;
+  }
+
+  .eligibility li,
+  .timing li{
+    font-size:14px;
+    padding:14px 10px 14px 18px;
+  }
+
+  .contact-btn-1{
+    margin:20px 0 40px;
+  }
+
+  .contact-btn-1 a{
+    width:100%;
+    max-width:300px;
+    padding:14px;
+  }
+
+}
+
+/* =========================
+   Small Mobile
+========================= */
+
+@media (max-width:480px){
+
+  .info-wrapper{
+    width:95%;
+  }
+
+  .eligibility h2,
+  .timing h2{
+    font-size:18px;
+  }
+
+  .eligibility li,
+  .timing li{
+    font-size:13px;
+  }
+
+  .contact-btn-1 p{
+    font-size:14px;
+  }
+
 }
