@@ -10,8 +10,8 @@ function HeroImage() {
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0K01cgZUt3TflSKWc1DMCQ1jqnxeqkqAIvfvl7OouNA&s=10"
     },
     {
-      name: "IT Departmentt",
-      img: "https://www.smart-academy.in/wp-content/uploads/2025/10/Coding-is-more-than-a-skillset-its-an-approach-to-problem-solving.jpg"
+      name: "IT Department",
+      img: "https://www.springboard.com/blog/wp-content/uploads/2022/06/coding.png"
     },
     {
       name: "E-Commerce Department",
