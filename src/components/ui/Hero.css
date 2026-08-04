@@ -12,14 +12,14 @@
 
 /* Title */
 .hero-con h2 {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
   color: #1e3c70;
  
 }
 
 .hero-con h1 {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   margin-top: 10px;
   color: #1e3c70;
@@ -49,7 +49,7 @@
 /* Offer heading */
 .offer h1 {
     text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   color: #1e3c70;
   margin-bottom: 10px;
 }
@@ -67,6 +67,7 @@
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;
+  font-size: 13px;
   transition: 0.3s;
 }
 
@@ -83,7 +84,7 @@
 }
 
 .programs-det-container h2 {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 8px;
   color: #1e3c70;
 }
@@ -107,18 +108,18 @@
   }
 
   .hero-con h2 {
-    font-size: 24px;
+    font-size: 13px;
   }
 
   .hero-con h1 {
-    font-size: 30px;
+    font-size: 13px;
   }
 
   .hero-con p {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .offer h1 {
-    font-size: 22px;
+    font-size: 13px;
   }
 }

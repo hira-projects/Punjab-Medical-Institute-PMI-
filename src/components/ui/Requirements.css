@@ -12,7 +12,7 @@
   text-align: center;
   color: #1e3c70;
   margin-bottom: 15px;
-  font-size: 23px;
+  font-size: 17px;
 }
 
 /* Paragraph */
@@ -84,11 +84,11 @@
 
 @media (max-width: 768px) {
   .criteria h1 {
-    font-size: 26px;
+    font-size: 15px;
   }
 
   .criteria h2 {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .row {
@@ -110,7 +110,7 @@
   }
 
   .criteria p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .criteria h2 {
@@ -129,7 +129,7 @@
    background:  #1e3c7083;;
   color: white;
   padding: 12px 25px;
-  font-size: 16px;
+  font-size: 13px;
   border-radius: 8px;
   text-decoration: none;
   transition: 0.3s;

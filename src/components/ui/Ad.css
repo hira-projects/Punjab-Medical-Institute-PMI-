@@ -7,7 +7,7 @@
 
 /* Title */
 .ad-container h1 {
-    font-size: 23px;
+    font-size: 17px;
   text-align: center;
   color: #0a3d62;
   margin-bottom: 15px;
@@ -25,7 +25,7 @@
 /* FLEX WRAPPER for ALL program sections */
 .ad-container h2 {
   color: #0a3d62;
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 

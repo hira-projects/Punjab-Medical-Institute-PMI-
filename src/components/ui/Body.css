@@ -10,7 +10,7 @@
 }
 
 .data h1 {
-  font-size: 23px;
+  font-size: 20px;
 color: #1e3c72;
   margin-bottom: 20px;
 
@@ -18,7 +18,7 @@ color: #1e3c72;
 }
 .data h2{
   margin: auto;
-  font-size: 18px;
+  font-size: 15px;
    color: #1e3c72;
 }
 .data p {
@@ -36,11 +36,11 @@ color: #1e3c72;
   }
 
   .data h1 {
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .data p {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 1.7;
   }
 }
@@ -51,13 +51,13 @@ color: #1e3c72;
 }
 
 .special h1 {
-  font-size: 23px;
+  font-size: 17px;
  color: #1e3c72;
   margin-bottom: 20px;
   text-align: center;
 }
 .special h2 {
-  font-size: 18px;
+  font-size: 15px;
  color: #1e3c72;
   margin-bottom: 20px;
   text-align: center;
@@ -104,14 +104,14 @@ color: #1e3c72;
 }
 
 .explain-data h1 {
-  font-size: 18px;
+  font-size: 15px;
  color: #1e3c72;
   margin-bottom: 10px;
   text-align: left;
 }
 
 .explain-data h3 {
-  font-size: 18px;
+  font-size: 15px;
   color: #1e3c72;
   /* margin-top: 35px; */
   margin-top: 20px;

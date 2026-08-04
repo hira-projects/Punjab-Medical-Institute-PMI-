@@ -27,7 +27,7 @@
 .cm h1 {
   text-align: center;
   color: white;
-  font-size: 23px;
+  font-size: 17px;
   margin-bottom: 20px;
 }
 
@@ -70,7 +70,7 @@
 .rule-box h2,
 .benefits h2 {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 15px;
   border-left: 4px solid white;
   padding-left: 10px;
@@ -121,7 +121,7 @@
 
 .benefits p {
   color: rgba(255,255,255,0.75);
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.8;
   text-align: justify;
   width: 40%;
@@ -147,7 +147,7 @@
 
   .rule-box h2,
   .benefits h2 {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .rule-box li,

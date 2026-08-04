@@ -25,10 +25,10 @@ function Department() {
           <h4>Cyber Security</h4>
         </div>
 
-        <div className="it-card">
+        {/* <div className="it-card">
           <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b" alt="Database Systems" />
           <h4>Database Systems</h4>
-        </div>
+        </div> */}
 
         <div className="it-card">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTzVWCbPavnAgm6-gPyfPCZ3M27tXRrzF1c68m9Dfk-g&s=10" alt="AI" />

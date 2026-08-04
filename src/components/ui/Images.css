@@ -1,53 +1,89 @@
 
 .cafeteria-container {
-  width: 100%;
-  padding: 30px;
-  font-family: "Segoe UI", Arial, sans-serif;
-  background: white;
+  margin-bottom: 60px;
+  padding: 50px;
+  background: #f8f9fa;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .cafeteria-container h1 {
-  font-size: 20px;
-  color: #1e3a8a;
-  margin-bottom: 25px;
+  color: #1e3c72;
+  font-size: 15px;
+  margin-bottom: 40px;
+  font-weight: 700;
 }
 
 /* GRID */
 .cards-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  display: flex;
+  justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 /* CARD */
 .cards-cafe {
-  background: #ffffff;
-  border-radius: 12px;
+  width: 220px;
+  background: #fff;
+  border-radius: 15px;
   overflow: hidden;
-  border: 1px solid #e5e7eb;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
 }
 
-/* HOVER */
 .cards-cafe:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px);
 }
 
 /* IMAGE */
 .cards-cafe img {
   width: 100%;
-  height: 160px;
+  height: 220px;
   object-fit: cover;
 }
 
 /* TITLE */
 .cards-cafe h3 {
-  margin: 10px 0;
+  text-align: center;
+  padding: 15px;
+  color: #1e3c72;
   font-size: 13px;
-  color: #374151;
+  font-weight: 600;
+  background: #fff;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .cards-cafe {
+    width: 280px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .cafeteria-container {
+    padding: 30px 15px;
+  }
+
+  .cards-grid {
+    gap: 20px;
+  }
+
+  .cards-cafe {
+    width: 80%;
+    max-width: 350px;
+  }
+
+  .cards-cafe img {
+    height: 200px;
+  }
+
+  .cards-cafe h3 {
+    font-size: 13px;
+  }
+
+  .cafeteria-container h1 {
+    font-size: 15px;
+  }
 }

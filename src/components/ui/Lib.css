@@ -20,7 +20,7 @@
 
 .library h2 {
   color: #0a3d62;
-  font-size: 20px;
+  font-size: 17px;
   margin-bottom: 15px;
 }
 
@@ -56,14 +56,14 @@
 
 .lib-images {
   display: flex;
-  gap: 20px;
+  gap: 17px;
   margin-top: 40px;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .lib-images img {
-  width: 31%;
+  width: 25%;
   height: 220px;
   object-fit: cover;
   border-radius: 12px;
@@ -84,15 +84,15 @@
   }
 
   .library h1 {
-    font-size: 21px;
+    font-size: 15px;
   }
 
   .library p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .lib-images img {
-    width: 100%;
+    width: 70%;
     height: 220px;
   }
 }

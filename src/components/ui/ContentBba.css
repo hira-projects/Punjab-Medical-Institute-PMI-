@@ -7,8 +7,7 @@
 
 
 .layout-container {
-    width: 100%;
-    
+    width: 100%;  
     padding: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: aliceblue;
@@ -19,7 +18,7 @@
 .left-content h1 {
     text-align: center;
     color: #0a3d62;
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
@@ -184,7 +183,7 @@
     border: none;
     background: transparent;
     color: #0a3d62;
-    font-size: 15px;
+    font-size: 13px;
     cursor: pointer;
 
 }
@@ -211,7 +210,7 @@
 
     .image-row img {
 
-        width: 100%;
+        width: 70%;
         height: 220px;
 
     }

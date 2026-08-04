@@ -10,7 +10,7 @@
 /* Title */
 .special-IT h3 {
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   color: #1e3c72;
   margin-bottom: 20px;
 }
@@ -58,7 +58,7 @@
 .IT-DATA h1,
 .special-IT > h1 {
     padding: 15px;
-  font-size: 18px;
+  font-size: 15px;
   color: #1e3c72;
   margin-bottom: 10px;
   text-align: left;

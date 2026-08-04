@@ -12,7 +12,7 @@
 
 .programs h1 {
    color:#0a3d62;
-  font-size: 23px;
+  font-size: 15px;
   margin-bottom: 15px;
 }
 
@@ -33,7 +33,7 @@
 .offers h2 {
   color:#0a3d62;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .offers h3 {
@@ -61,7 +61,7 @@
 }
 
 .section h2 {
-  font-size: 18px;
+  font-size: 15px;
    color:#0a3d62;
   margin-bottom: 20px;
 }
@@ -94,7 +94,7 @@ margin-bottom: 20px;
 /* Responsive */
 @media (max-width: 768px) {
   .programs h1 {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .offers h3 {

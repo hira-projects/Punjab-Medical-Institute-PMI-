@@ -15,10 +15,10 @@ function Images() {
           <h3>Students Lunch Break</h3>
         </div>
 
-        <div className="cards-cafe">
+        {/* <div className="cards-cafe">
           <img src="https://www.lancingcollege.co.uk/wp-content/uploads/2025/02/14_1.png" />
           <h3>Friends Gathering</h3>
-        </div>
+        </div> */}
 
         <div className="cards-cafe">
           <img src="https://miro.medium.com/v2/resize:fit:1400/1*_diGq5WTW1FD8fZ1n4OgmA.jpeg" />

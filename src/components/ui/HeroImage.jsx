@@ -13,10 +13,10 @@ function HeroImage() {
       name: "IT Department",
       img: "https://www.springboard.com/blog/wp-content/uploads/2022/06/coding.png"
     },
-    {
-      name: "E-Commerce Department",
-      img: "https://static.vecteezy.com/system/resources/thumbnails/005/732/516/small/e-commerce-online-shopping-digital-marketing-internet-business-technology-concept-on-virtual-screen-free-photo.jpg"
-    },
+    // {
+    //   name: "E-Commerce Department",
+    //   img: "https://static.vecteezy.com/system/resources/thumbnails/005/732/516/small/e-commerce-online-shopping-digital-marketing-internet-business-technology-concept-on-virtual-screen-free-photo.jpg"
+    // },
     {
       name: "Accounting & Finance Department",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS62NpkA7i7C7wRVRL_xY8kkFiIOph6A9nQGhnDtVTerQ&s=10"

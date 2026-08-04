@@ -17,7 +17,7 @@
 /* TITLE */
 .BBA > h1 {
   text-align: center;
-  font-size: 23px;
+  font-size: 17px;
   color: #0a3d62;
   margin-top: 20px;
   margin-bottom: 12px;
@@ -99,7 +99,7 @@
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .BBA > h1 {
-    font-size: 24px;
+    font-size: 17px;
   }
 
   .overview {

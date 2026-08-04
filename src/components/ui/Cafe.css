@@ -23,7 +23,7 @@
 /* TITLE */
 .cafe-container h1 {
   margin-top: 90px;
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   margin-bottom: 10px;
   border-left: 5px solid white;
@@ -70,7 +70,7 @@
 
 .cafe-container li {
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 13px;
   color: rgba(255, 255, 255, 0.678);
 
   transition: all 0.25s ease;
@@ -87,4 +87,97 @@
 .cafe-container p,
 .cafe-container ul {
   max-width: 850px;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .cafe-container {
+    height: auto;
+    min-height: 70vh;
+    padding: 35px 20px;
+    background-attachment: scroll;
+  }
+
+  .cafe-container h1 {
+    margin-top: 60px;
+    font-size: 18px;
+  }
+
+  .cafe-container h2 {
+    font-size: 17px;
+  }
+
+  .cafe-container p,
+  .cafe-container li {
+    font-size: 14px;
+  }
+
+  .cafe-container p,
+  .cafe-container ul {
+    max-width: 100%;
+  }
+}
+
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+  .cafe-container {
+    width: 100%;
+    height: auto;
+    padding: 25px 15px;
+    margin-top: 20px;
+    background-position: center;
+    background-attachment: scroll;
+  }
+
+  .cafe-container h1 {
+    margin-top: 40px;
+    font-size: 15px;
+    padding-left: 8px;
+    border-left-width: 3px;
+  }
+
+  .cafe-container p {
+    font-size: 13px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+  }
+
+  .cafe-container h2 {
+    margin-top: 15px;
+    font-size: 15px;
+  }
+
+  .cafe-container ul {
+    padding-left: 18px;
+    margin-top: 10px;
+  }
+
+  .cafe-container li {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+
+  .cafe-container h2::after {
+    width: 50%;
+  }
+}
+
+
+/* Small Mobile Devices */
+@media (max-width: 380px) {
+  .cafe-container {
+    padding: 20px 12px;
+  }
+
+  .cafe-container h1 {
+    font-size: 13px;
+  }
+
+  .cafe-container p,
+  .cafe-container li {
+    font-size: 11px;
+  }
 }

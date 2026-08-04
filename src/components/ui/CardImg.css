@@ -8,7 +8,7 @@
 .gallery h1 {
   margin-bottom: 30px;
   color: #003366;
-  font-size: 23px;
+  font-size: 15px;
 }
 
 .gallery-container {
@@ -19,7 +19,7 @@
 }
 
 .gallery-card {
-  width: 250px;
+  width: 200px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;

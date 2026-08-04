@@ -20,7 +20,7 @@
 }
 
 .heading h1{
-    font-size:20px;
+    font-size:17px;
     color:#0a3d62;
     margin-bottom:15px;
 }
@@ -44,7 +44,7 @@
 }
 
 .image-grid img{
-    width:100%;
+    width:90%;
     height:220px;
     object-fit:cover;
     border-radius:12px;
@@ -60,7 +60,7 @@
 
 .course-section{
     display:flex;
-    gap:25px;
+    gap:20px;
     justify-content:center;
     flex-wrap:wrap;
 }
@@ -78,7 +78,7 @@
     color:#0a3d62;
     text-align:center;
     margin-bottom:20px;
-    font-size:18px;
+    font-size:15px;
 }
 
 .container ul{
@@ -107,7 +107,7 @@
 @media(max-width:768px){
 
     .heading h1{
-        font-size:28px;
+        font-size:15px;
     }
 
     .heading p{
