@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://punjab-medical-institute-pmi.vercel.app/sitemap.xml
