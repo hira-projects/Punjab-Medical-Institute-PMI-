@@ -1,8 +1,86 @@
+
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://punjab-medical-institute-pmi.vercel.app/</loc>
-    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/About</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/programs</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/facilities</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Programs/adp</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Programs/diploma</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Programs/bscs</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Programs/bba</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Programs/short-courses</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Facilities/Environment</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Facilities/library</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Facilities/labs</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Facilities/cmlabs</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Facilities/cafeteria</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Facilities/sports</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://punjab-medical-institute-pmi.vercel.app/Contact</loc>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
