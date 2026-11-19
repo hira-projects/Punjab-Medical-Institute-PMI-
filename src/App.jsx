@@ -1,6 +1,7 @@
 
 
 // import React from 'react'
+import { HelmetProvider } from "react-helmet-async";
 import React, { useEffect, useState } from "react";
 import Loading from './Pages/Loadi/Loading'
 import Home from './Pages/Home'
@@ -40,6 +41,7 @@ function App() {
   }
   return (
     <>
+    <HelmetProvider>
     <BrowserRouter>
     <AboutNav />
     <Routes>
@@ -66,6 +68,7 @@ function App() {
     </Routes>    
     <AboutFoot />
     </BrowserRouter>
+    </HelmetProvider>
      {/* <Home /> */}  
     </>
      
